@@ -18,8 +18,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "vite",
-    "build": "vite build"
+    "start": "vite", // Development server
+    "build": "vite build", // Build for production
+    "preview": "vite preview" // Preview the production build locally
   },
   "eslintConfig": {
     "extends": [
